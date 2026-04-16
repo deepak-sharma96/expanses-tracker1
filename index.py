@@ -468,8 +468,9 @@ loadData();
 </script>
 </body>
 </html>
+"""
 
- # --- ROUTES --- 
+# ----------- ROUTES -----------
 @app.route('/')
 def home():
     return render_template_string(HOME_HTML)
